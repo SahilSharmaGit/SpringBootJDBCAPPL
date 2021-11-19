@@ -14,7 +14,7 @@ import com.rk.model.Student;
 @Repository
 public class StudentDaoImpl implements IStudentDao {
 
-	private final static String CREATE_TABLE = "CREATE TABLE students(sid NUMBER, sname VARCHAR, smarks FLOAT)";
+	private final static String CREATE_TABLE = "CREATE TABLE students(sid int, sname VARCHAR(20), smarks FLOAT)";
 	private final static String DROP_TABLE = "DROP TABLE students";
 	private final static String INSERT_RECORD = "INSERT INTO students VALUES(?,?,?)";
 	private final static String UPDATE_RECORD = "UPDATE students SET sname = ?, smarks = ? where sid = ?";
