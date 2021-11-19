@@ -43,7 +43,7 @@ public class DBRunner implements CommandLineRunner {
 		 * listData) { System.out.println(student); }
 		 */
 
-		/*
+		/* getting error here:
 		 * List l = dao.fetchAll(); System.out.println(l);
 		 */
 
